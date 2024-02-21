@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;600&family=Roboto:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@100;400;600&family=Roboto:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@100;400;600&family=Roboto:wght@500&family=Varela+Round&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Lobster&family=Roboto+Slab:wght@100;400;600&family=Roboto:wght@500&family=Varela+Round&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Lobster&family=Roboto+Slab:wght@100;400;600&family=Roboto:wght@500&family=Varela+Round&family=Wix+Madefor+Display&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.devimg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image/developer\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.text{
+    
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.hi{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.abhi{
+    font-size:1.7rem ;
+    font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+color: aqua;
+
+}
+.fullstack{
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+   color: aquamarine;
+
+}
+.work{
+    height: 6rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+ letter-spacing: 5px;
+ word-spacing: 2px;
+
+
+    font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Varela Round', sans-serif;
+}
+.YOU{
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+/* ---------------------------------------------card--------------------- */
+.allcard{
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+.allcard>div{
+    width: 16rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 5px  red;
+    
+}
+.allcard{
+          background-color: white;
+          height: 23rem;
+}
+.c1{
+    background-image: url(image/web.png);
+}
+.c2{
+    background-image: url(image/mobile.png);
+    
+}
+.c3{
+    background-image: url(image/uiux.png);
+}
+.c1,.c2,.c3{
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cardtext{
+    position: relative;
+    padding-top: 9rem;
+     gap: 3rem;
+   margin: 10px;  
+}
+.p{
+    line-height: 1rem;
+  margin-top: 8px;
+  
+    
+    
+    color: gray;
+}
+
+.h3{
+    color: black;
+    padding-right: 4.5rem;
+    padding-top: 1rem;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+/* --------------------------------------------------------------c2-------------- */
+
+
+/* -----------------------------------------------h3---------------------- */
+
+/* -------------------------------------about and contact */
+.last{
+
+    height: 12rem;
+    background-color: blue;
+    display: flex;
+    
+letter-spacing: 1.2px;
+
+}
+
+.contact{
+    height: 12rem;
+    width: 50%;
+    color: white;
+    background-color: darkolivegreen;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    
+}
+
+.about{
+    height: 12rem;
+    width: 50%;
+color: white;
+    background-color: mediumvioletred;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction:column;
+    gap: 0.4rem;
+    
+}
+.foter{
+    height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: black;
+    color: white;
+     font-style: italic; 
+     
+}
+.contactme{
+
+    font-family: 'Almarai', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Wix Madefor Display', sans-serif;
+font-size: 2rem;
+        
+}
+
